@@ -1,0 +1,576 @@
+{
+    "collections": {
+        "lectures": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "export.zip"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "required_keys": {
+                        "date": {
+                            "type": "date"
+                        },
+                        "topic": {
+                            "type": "string"
+                        },
+                        "reading": {
+                            "nullable": true,
+                            "type": "dict",
+                            "required_keys": {
+                                "title": {
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "videos": {
+                            "type": "list",
+                            "element_schema": {
+                                "type": "dict",
+                                "required_keys": {
+                                    "title": {
+                                        "type": "string"
+                                    },
+                                    "url": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-introduction": {
+                    "metadata": {
+                        "date": "2021-09-23",
+                        "topic": "Introduction",
+                        "reading": {
+                            "title": "Chapter 1 - Introduction to Data Science",
+                            "url": "https://afraenkel.github.io/practical-data-science/01/introduction.html"
+                        },
+                        "number": 1,
+                        "videos": [
+                            {
+                                "title": "Introduction",
+                                "url": "https://youtu.be/vsF-8IFmu9I"
+                            },
+                            {
+                                "title": "Course Structure",
+                                "url": "https://youtu.be/MvBXkM8D6Mw"
+                            },
+                            {
+                                "title": "The Data Science Lifecycle",
+                                "url": "https://youtu.be/x9vBpH7ft4s"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "02-tabular_data": {
+                    "metadata": {
+                        "date": "2021-09-28",
+                        "topic": "Tabular Data",
+                        "reading": {
+                            "title": "Chapter 2 - The Basics of Tabular Data",
+                            "url": "https://afraenkel.github.io/practical-data-science/02/introduction.html"
+                        },
+                        "number": 2,
+                        "videos": [
+                            {
+                                "title": "Tabular Data in Pandas",
+                                "url": "https://youtu.be/W-txew6nx8s"
+                            },
+                            {
+                                "title": "Pandas and Numpy",
+                                "url": "https://youtu.be/q2BhOaUdqsI"
+                            },
+                            {
+                                "title": "Useful Pandas Methods",
+                                "url": "https://youtu.be/r1Vc7hk-Zis"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "03-messy_data": {
+                    "metadata": {
+                        "date": "2021-09-30",
+                        "topic": "Messy Data",
+                        "reading": {
+                            "title": "Chapter 4.2 - Cleaning Messy Data",
+                            "url": "https://afraenkel.github.io/practical-data-science/04/cleaning.html"
+                        },
+                        "number": 3,
+                        "videos": [
+                            {
+                                "title": "Introduction to data cleaning",
+                                "url": "https://youtu.be/K_1LvMFL5Go"
+                            },
+                            {
+                                "title": "Cleaning up data types",
+                                "url": "https://youtu.be/9hEer5OVJH4"
+                            },
+                            {
+                                "title": "Unfaithful data",
+                                "url": "https://youtu.be/vqCQ7RE3BRU"
+                            },
+                            {
+                                "title": "Missing values",
+                                "url": "https://youtu.be/kcD4qzDxPqU"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "04-hypothesis_testing": {
+                    "metadata": {
+                        "date": "2021-10-05",
+                        "topic": "Hypothesis Testing",
+                        "reading": {
+                            "title": "Chapter 4.4 - Hypothesis Testing",
+                            "url": "https://afraenkel.github.io/practical-data-science/04/asking-questions.html"
+                        },
+                        "number": 4,
+                        "videos": [
+                            {
+                                "title": "Hypothesis Testing and Coin Flips",
+                                "url": "https://youtu.be/-0UomHBzI9I"
+                            },
+                            {
+                                "title": "Jury Panels and the TVD",
+                                "url": "https://youtu.be/PRnxTUYSAWM"
+                            },
+                            {
+                                "title": "P-Values",
+                                "url": "https://youtu.be/Gq4ePL58GKc"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "05-data_granularity": {
+                    "metadata": {
+                        "date": "2021-10-07",
+                        "topic": "Data Granularity",
+                        "reading": {
+                            "title": "Chapters 5.1 and 5.2 - Data Granularity",
+                            "url": "https://afraenkel.github.io/practical-data-science/05/grouping.html"
+                        },
+                        "number": 5,
+                        "videos": [
+                            {
+                                "title": "Data Granularity and groupby",
+                                "url": "https://youtu.be/nGK66i6I9NA"
+                            },
+                            {
+                                "title": "Pivot Tables",
+                                "url": "https://youtu.be/DZU_2e29mMs"
+                            },
+                            {
+                                "title": "Simpson's Paradox",
+                                "url": "https://youtu.be/gW4RUashlDg"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "06-combining_data": {
+                    "metadata": {
+                        "date": "2021-10-12",
+                        "topic": "Combining Data",
+                        "reading": {
+                            "title": "Chapters 5.3 and 5.4 - Data Granularity",
+                            "url": "https://afraenkel.github.io/practical-data-science/05/appending-data.html"
+                        },
+                        "number": 6,
+                        "videos": [
+                            {
+                                "title": "Concatenating Vertically",
+                                "url": "https://youtu.be/2nTvFwEXJM4"
+                            },
+                            {
+                                "title": "Working with Times",
+                                "url": "https://youtu.be/gxYY66OzH6g"
+                            },
+                            {
+                                "title": "Concatenating Horizontally",
+                                "url": "https://youtu.be/7oW3gJG8rDo"
+                            },
+                            {
+                                "title": "Joining with pd.merge",
+                                "url": "https://youtu.be/8J4DNMOMnRw"
+                            },
+                            {
+                                "title": "Many-to-* Joins, and a Demo",
+                                "url": "https://youtu.be/5Iumi9F1RZk"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "07-permutation_tests": {
+                    "metadata": {
+                        "date": "2021-10-14",
+                        "topic": "Permutation Tests",
+                        "reading": {
+                            "title": "Chapter 5.5 - Permutation Tests",
+                            "url": "https://afraenkel.github.io/practical-data-science/05/permutation-tests.html"
+                        },
+                        "number": 7,
+                        "videos": [
+                            {
+                                "title": "Permutation Tests",
+                                "url": "https://youtu.be/8msJZpM0HIw"
+                            },
+                            {
+                                "title": "TVD as a Test Statistic",
+                                "url": "https://youtu.be/eyJCIWQwwzg"
+                            },
+                            {
+                                "title": "Speeding up Permutation Tests",
+                                "url": "https://youtu.be/U5A8QN-fwCw"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "08-missingness": {
+                    "metadata": {
+                        "date": "2021-10-19",
+                        "topic": "Missingness",
+                        "reading": {
+                            "title": "Chapters 6.1 and 6.2 - Missingness",
+                            "url": "https://afraenkel.github.io/practical-data-science/06/introduction.html"
+                        },
+                        "number": 8,
+                        "videos": [
+                            {
+                                "title": "Missingness Mechanisms",
+                                "url": "https://youtu.be/_ZIoe2TtO-Y"
+                            },
+                            {
+                                "title": "Formal Definitions of Missingness",
+                                "url": "https://youtu.be/tpEXBsWb2xs"
+                            },
+                            {
+                                "title": "Assessing Missingness Quantitatively",
+                                "url": "https://youtu.be/88SOZnWlkWM"
+                            },
+                            {
+                                "title": "Kolmogorov-Smirnov Test Statistic",
+                                "url": "https://youtu.be/tpEO0szIPi4"
+                            },
+                            {
+                                "title": "Summary and Examples",
+                                "url": "https://youtu.be/8LKWPGQr5K0"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "09-data_imputation": {
+                    "metadata": {
+                        "date": "2021-10-21",
+                        "topic": "Imputation",
+                        "reading": {
+                            "title": "Chapters 6.3, 6.4, 6.5 - Missing Data",
+                            "url": "https://afraenkel.github.io/practical-data-science/06/handling-missing-data.html"
+                        },
+                        "number": 9,
+                        "videos": [
+                            {
+                                "title": "Introduction to Data Imputation",
+                                "url": "https://youtu.be/-aFNJU7EZsc"
+                            },
+                            {
+                                "title": "What to do with missing data",
+                                "url": "https://youtu.be/ygxh7USX3Ew"
+                            },
+                            {
+                                "title": "Mean imputation",
+                                "url": "https://youtu.be/RkWqRg1jIrU"
+                            },
+                            {
+                                "title": "Probabilistic imputation",
+                                "url": "https://youtu.be/w6l6c2U--50"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "10-collecting_data": {
+                    "metadata": {
+                        "date": "2021-10-26",
+                        "topic": "Collecting Data",
+                        "reading": {
+                            "title": "Chapters 7.1 and 7.2 - Data Collection",
+                            "url": "https://afraenkel.github.io/practical-data-science/07/introduction.html"
+                        },
+                        "number": 10,
+                        "videos": [
+                            {
+                                "title": "Collecting Data",
+                                "url": "https://youtu.be/6Kihi6rANlc"
+                            },
+                            {
+                                "title": "HTTP Requests and JSON",
+                                "url": "https://youtu.be/d93H6h-pw2U"
+                            },
+                            {
+                                "title": "APIs vs Scraping",
+                                "url": "https://youtu.be/w9nMK2S_lBU"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "11-parsing_nested_data": {
+                    "metadata": {
+                        "date": "2021-10-28",
+                        "topic": "Parsing Nested Data",
+                        "reading": {
+                            "title": "Chapter 7.3 - Parsing HTML",
+                            "url": "https://afraenkel.github.io/practical-data-science/07/html.html"
+                        },
+                        "number": 11,
+                        "videos": [
+                            {
+                                "title": "HTML",
+                                "url": "https://youtu.be/JzPjRPeKICU"
+                            },
+                            {
+                                "title": "Parsing HTML",
+                                "url": "https://youtu.be/t9VLJiypjVc"
+                            },
+                            {
+                                "title": "Example: Scraping Quotes",
+                                "url": "https://youtu.be/LSBcvPDIhwA"
+                            },
+                            {
+                                "title": "Nested vs. Flat Data Structures",
+                                "url": "https://youtu.be/2FRbynzB4ms"
+                            },
+                            {
+                                "title": "API Requests",
+                                "url": "https://youtu.be/ghimteM-UuY"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "12-text_data": {
+                    "metadata": {
+                        "date": "2021-11-02",
+                        "topic": "Text Data",
+                        "reading": {
+                            "title": "Chapter 8.1 - Text Processing",
+                            "url": "https://afraenkel.github.io/practical-data-science/08/introduction.html"
+                        },
+                        "number": 12,
+                        "videos": [
+                            {
+                                "title": "Canonicalization",
+                                "url": "https://youtu.be/jdJqyXBtghw"
+                            },
+                            {
+                                "title": "Intro to Regular Expressions",
+                                "url": "https://youtu.be/l9CtDQBXSfk"
+                            },
+                            {
+                                "title": "Regex Building Blocks",
+                                "url": "https://youtu.be/e52xX2F8viY"
+                            },
+                            {
+                                "title": "Extended Regex",
+                                "url": "https://youtu.be/rFdGcWo0nIU"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "13-text_and_features": {
+                    "metadata": {
+                        "date": "2021-11-04",
+                        "topic": "Extracting Information from Text",
+                        "reading": {
+                            "title": "Chapter 8.2 - Information Extraction from Text",
+                            "url": "https://afraenkel.github.io/practical-data-science/08/nlp.html"
+                        },
+                        "number": 13,
+                        "videos": [
+                            {
+                                "title": "Cleaning the SD City Salary Job Titles",
+                                "url": "https://youtu.be/kQqTAauvMlY"
+                            },
+                            {
+                                "title": "Bag of Words",
+                                "url": "https://youtu.be/6CGgDVGKVu4"
+                            },
+                            {
+                                "title": "Tf-Idf",
+                                "url": "https://youtu.be/kWgq1nIThPc"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "14-features": {
+                    "metadata": {
+                        "date": "2021-11-09",
+                        "topic": "Features",
+                        "reading": {
+                            "title": "Chapter 9.1 - Feature Engineering",
+                            "url": "https://afraenkel.github.io/practical-data-science/09/features.html"
+                        },
+                        "number": 14,
+                        "videos": [
+                            {
+                                "title": "Features",
+                                "url": "https://youtu.be/asgNHvTXJ9E"
+                            },
+                            {
+                                "title": "Feature Engineering",
+                                "url": "https://youtu.be/KPLC5ywHV20"
+                            },
+                            {
+                                "title": "Features and Models",
+                                "url": "https://youtu.be/J_qzUCV54DQ"
+                            },
+                            {
+                                "title": "Example: Predicting Tips",
+                                "url": "https://youtu.be/6vQAGoA0NaA"
+                            },
+                            {
+                                "title": "Example: Adding Features to Predict Tips",
+                                "url": "https://youtu.be/hUOWFWxwfLA"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "15-modeling_pipeline": {
+                    "metadata": {
+                        "date": "2021-11-11",
+                        "topic": "Model Pipelines",
+                        "reading": {
+                            "title": "Chapters 9.2 - Data Pipelines",
+                            "url": "https://afraenkel.github.io/practical-data-science/09/data-pipelines.html"
+                        },
+                        "number": 15,
+                        "videos": [
+                            {
+                                "title": "sklearn Transformers and Models",
+                                "url": "https://youtu.be/o7b5msJS8bY"
+                            },
+                            {
+                                "title": "Pipelines",
+                                "url": "https://youtu.be/1LQB4XeNp1o"
+                            },
+                            {
+                                "title": "Intro to Bias and Variance",
+                                "url": "https://youtu.be/tg09RWEUObM"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "16-bias_and_variance": {
+                    "metadata": {
+                        "date": "2021-11-16",
+                        "topic": "Model Validation",
+                        "reading": null,
+                        "number": 16,
+                        "videos": [
+                            {
+                                "title": "Model Validation",
+                                "url": "https://youtu.be/aYw2JivFTqo"
+                            },
+                            {
+                                "title": "Example: Polynomial Regression",
+                                "url": "https://youtu.be/6jFYeQp28Ag"
+                            },
+                            {
+                                "title": "Example: Decision Trees",
+                                "url": "https://youtu.be/Rg_cQ_7f_6Y"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "17-examples": {
+                    "metadata": {
+                        "date": "2021-11-18",
+                        "topic": "Examples",
+                        "reading": null,
+                        "number": 17,
+                        "videos": [
+                            {
+                                "title": "Grid Search Cross-Validation",
+                                "url": "https://youtu.be/XhObFdOpzNw"
+                            },
+                            {
+                                "title": "Examples: Multicollinearity",
+                                "url": "https://youtu.be/Ji_ITRl8PfM"
+                            },
+                            {
+                                "title": "Example: Text Data",
+                                "url": "https://youtu.be/YXFZ5X6gvE4"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "18-model_evaluation_and_fairness": {
+                    "metadata": {
+                        "date": "2021-11-23",
+                        "topic": "Model Evaluation and Fairness",
+                        "reading": null,
+                        "number": 18,
+                        "videos": [
+                            {
+                                "title": "Sensitivity, Specificity, Precision, Recall",
+                                "url": "https://youtu.be/BKjj3A-gXTU"
+                            },
+                            {
+                                "title": "Model Evaluation and Individuals",
+                                "url": "https://youtu.be/o_0zA_TXTkQ"
+                            },
+                            {
+                                "title": "Fairness and Bias in ML Models",
+                                "url": "https://youtu.be/BEooZWbZYYs"
+                            },
+                            {
+                                "title": "Parity Measures",
+                                "url": "https://youtu.be/P8-z29On_i4"
+                            },
+                            {
+                                "title": "Parity Example: Loans and Age",
+                                "url": "https://youtu.be/09PpYDyxBEQ"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "default": {
+            "publication_schema": {
+                "required_artifacts": [],
+                "optional_artifacts": null,
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": true,
+                "is_ordered": false
+            },
+            "publications": {}
+        }
+    }
+}
