@@ -3,7 +3,7 @@
         "lectures": {
             "publication_schema": {
                 "required_artifacts": [
-                    "export.zip"
+                    "notebook"
                 ],
                 "optional_artifacts": [],
                 "metadata_schema": {
@@ -73,7 +73,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/01-introduction/notebook"
+                        }
+                    }
                 },
                 "02-tabular_data": {
                     "metadata": {
