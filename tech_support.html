@@ -86,31 +86,128 @@
 
 
                         <h1 id="tech-support">❓ Tech Support</h1>
-<h2 id="environment-setup-and-customization">Environment Setup and Customization</h2>
-<p>In this class you need python 3.8, either with Anaconda or pip. Anaconda is a
-package manager that comes python libraries useful for data science. If you
-prefer to use pip, you can use that too. You will also need git.</p>
-<p><em>Note: please use pandas &gt;= 1.0 for this class. See below how to upgrade if your
-pandas version is anything below 1.0.</em></p>
-<p>There are two options for development in this class: local and remote.
-Developing locally, on your personal computer, is preferred, as it allows you to
-start customizing your work environment; learning such customization allows you
-to be much more productive in your work. We also have servers you can use
-through a web-browser, you can use as well. There are advantages and
-disadvantages to using the servers; we encourage you to use both at some point
-in the quarter.</p>
-<h3 id="working-remotely-datahub">Working Remotely (DataHub)</h3>
+<p>Assignments in DSC 80 are mostly coding assignments, so it's important to make
+sure that your computing environment is set up properly. There are two ways to
+go about things: you can set up a <em>local</em> environment or use a <em>remote</em>
+environment that is largely pre-configured. On this page, we'll talk about
+both options.</p>
+<p>Writing code locally, on your personal computer, is our preferred option. We
+won't lie &ndash; it involves a little more time to set up and a steeper
+learning curve. But in the long run, you'll likely find the local environment
+more comfortable and faster since you can customize it to your own needs.
+Additionally, setting up your own local Python environment is something you'll
+be expected to do when working as a data scientist, so it's a good idea to start
+now.</p>
+<p>There has been a lot written about how to set up a Python environment, so
+we won't reinvent the wheel. This page will only be a summary; Google will be
+your main resource. But always feel free to come to a staff member's office
+hours if you have a question about setting up your environment, using Git,
+or similar &mdash; we're here to help.</p>
+<div class="toc">
+<ul>
+<li><a href="#tech-support">❓ Tech Support</a><ul>
+<li><a href="#working-locally">Working Locally</a><ul>
+<li><a href="#installing-python">Installing Python</a></li>
+<li><a href="#git">Git</a></li>
+<li><a href="#choosing-a-text-editor-or-ide">Choosing a Text Editor or IDE</a></li>
+</ul>
+</li>
+<li><a href="#working-remotely-datahub">Working Remotely (DataHub)</a><ul>
+<li><a href="#installing-or-updating-python-packages">Installing or Updating Python Packages</a></li>
+<li><a href="#jupyterlab">JupyterLab</a></li>
+<li><a href="#git_1">Git</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="working-locally">Working Locally</h2>
+<p>Working <em>locally</em> simply refers to developing code using software installed
+on your own machine. For this class, the software you'll need includes Python
+3.8, a few specific Python packages, Git, and a text editor.</p>
+<h3 id="installing-python">Installing Python</h3>
+<p>There are several ways of installing Python on your own computer. We recommend
+downloading the <a href="https://www.anaconda.com/products/individual">Anaconda</a> Python
+distribution and following the instructions for installing it. You should
+install the standard Anaconda (not Miniconda) with Python 3.8.</p>
+<p>As mentioned above, Anaconda is a Python <em>distribution</em>. This means it comes
+with many useful Python packages, including, for instance, <code>pandas</code>. If you
+should need to install a new Python package, you can use the <code>conda</code> command.
+You'll need to open a terminal. On Windows, you can use the Anaconda Prompt;
+on macOS or Linux, you can use the terminal app that comes with the operating
+system, or install one (Alacritty is a popular choice). Then, inside the
+terminal, type <code>conda install &lt;package_name&gt;</code>, where <code>&lt;package_name&gt;</code> is
+replaced by the name of the package you want to install, and hit enter.</p>
+<h3 id="git">Git</h3>
+<p>All of our course materials, including your assignments, are hosted on GitHub
+in a Git repository. This means that you'll need to download
+<a href="https://git-scm.com/">Git</a> and use in order to work with the course materials.</p>
+<p>Git is a <em>version control system</em>. In short, it is used to keep track of the
+history of a project. With Git, you can go back in time to any previous version
+of your project, or even work on two different versions (or "branches") in
+parallel and "merge" them together at some point in the future. We'll stick to
+using the basic features of Git in DSC 80.</p>
+<p>There are Git GUIs, and you can use them for this class. You can also use the
+command-line version of Git. To get started, you'll need to "clone" the
+course repository. The command to do this is:</p>
+<pre><code>git clone https://github.com/dsc-courses/dsc80-2021-fa
+</code></pre>
+<p>This will copy the repository to a directory on your computer. To bring in
+the latest version of the repository, run <code>git pull</code>. This will <em>not</em> overwrite
+your work. In fact, Git is designed to make it very difficult to lose work
+(although it's still possible!).</p>
+<h3 id="choosing-a-text-editor-or-ide">Choosing a Text Editor or IDE</h3>
+<p>In this class, you will need to use a combination of editors for doing your
+assignments: The python files should be developed with an IDE (for syntax
+highlighting and running doctests) and the data/results should be
+analyzed/presented in Jupyter Notebooks. Below is an incomplete list of IDEs you
+might want to try. For more information about them, feel free to ask me!</p>
+<ul>
+<li>
+<p>The <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> text editor: see above. A nice combination with notebooks.</p>
+</li>
+<li>
+<p><a href="https://www.sublimetext.com/">sublime</a>: A favorite text editor of hackers, famous for its multiple cursors. A good, general-purpose choice.</p>
+</li>
+<li>
+<p><a href="https://atom.io/">atom</a>: GitHub’s editor. Pretty nice fully featured IDE. Can only work locally.</p>
+</li>
+<li>
+<p><a href="https://www.jetbrains.com/pycharm/">PyCharm (IntelliJ)</a>: Those who feel at home coding Java. Can only work locally.</p>
+</li>
+<li>
+<p><a href="https://code.visualstudio.com/">VSCode</a>: Microsoft Visual Studio Code -- the trendy IDE of 2021. Might be <em>too much</em> for the small projects we're working on, like using a sledgehammer to drive in a thumbtack.</p>
+</li>
+<li>
+<p><a href="https://www.nano-editor.org/">nano</a>: available on most unix commandlines (e.g. DataHub Terminal). If you use this for more than changing a word or two, you'll hate your life.</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">vim</a>: lightweight, productive text-editor available on most command-lines, if you can ever learn how to use it. Beware opening vim, as you may never figure out how to quit (literally).</p>
+</li>
+<li>
+<p><a href="https://www.gnu.org/software/emacs/">emacs</a>: A text editor for those who prefer a life of endless toil. Endlessly customizable, it promises everything, but you’re never good enough to deliver. Its keyboard shortcuts are guaranteed to give you carpal tunnel.</p>
+</li>
+</ul>
+<h2 id="working-remotely-datahub">Working Remotely (DataHub)</h2>
+<p>Working <em>remotely</em> means using an environment that someone else set up for you
+on a computer far, far away, usually through the browser. This is the way you
+wrote code in DSC 10, for instance. There's nothing wrong with this, <em>per se</em>,
+and it is simpler, but you should think of this option as developing with
+"training wheels". Eventually, you will need to learn how to set up your own
+Python environment, and now is as good a time as any.</p>
 <p>There are servers available to use at <a href="datahub.ucsd.edu">datahub.ucsd.edu</a>.
 These are a lot like the jupyterhub servers that you used in DSC 10, however
 they are customized for this course. After logging in with your ucsd account,
 you will be taken the familiar juptyer landing page. The server you are logged
 into has ~4GB of RAM available, and has Python with all the necessary
 packages.</p>
+<h3 id="installing-or-updating-python-packages">Installing or Updating Python Packages</h3>
 <p>To update a package (e.g. pandas) on DataHub, you'll need to use the command
-line. To do this, open “new &gt; terminal” and type:</p>
+line. To do this, open “New &gt; Terminal” and type:</p>
 <p><code>pip install --user --upgrade pandas</code></p>
 <p>followed by the enter key to run the command.</p>
-<h4 id="jupyterlab">JupyterLab</h4>
+<h3 id="jupyterlab">JupyterLab</h3>
 <p>The remote servers have a development environment installed on them, however,
 it’s non-intuitive how to access it. Once on the landing page, the url should
 read something like:</p>
@@ -126,7 +223,7 @@ jupyterlab, you can:</p>
 <li>use a terminal (e.g. to pull git repos)</li>
 <li>develop python code in .py files.</li>
 </ul>
-<h4 id="git">Git</h4>
+<h3 id="git_1">Git</h3>
 <p>Using DataHub Servers will require you to pull down HW assignments from GitHub
 using the command-line (manually uploading to the servers is very cumbersome!)
 To do this, open “new &gt; terminal” and, to get the course repository for the
@@ -135,54 +232,6 @@ open up the file-tree in the original Jupyter tab, and you should see all the
 course files now there. If you have already cloned the repository, and just want
 to get the latest files, type <code>git pull</code> and you should see the
 updated files.</p>
-<p>Warning: When working on assignments, you should copy the assignment directory
-to a new location, to avoid overwriting your work with blank assignments when
-pulling the latest material! See the git tutorial on the course webpage for more
-information.</p>
-<h3 id="local-development-preferred">Local Development (preferred)</h3>
-<p>Getting a development environment on your own computer is a valuable experience
-that will pay dividends; work in data science first requires getting the
-necessary tools working!</p>
-<p>Download <a href="https://www.anaconda.com/products/individual">Anaconda</a> and follow the
-instructions for installing it. You should install the standard anaconda (not
-miniconda) with python 3.8.</p>
-<h4 id="git-in-your-local-environment">Git in your local environment</h4>
-<p>You are welcome to use Git Desktop on your computer. However, it’s recommended
-to use the command-line when working on team projects, as Git Desktop has a
-habit of incorrectly guessing what you want, and causing hours of headache. The
-command-line is worth the investment.</p>
-<h3 id="choosing-a-text-editor-or-ide-integrated-development-environment">Choosing a text editor or IDE (Integrated Development Environment)</h3>
-<p>In this class, you will need to use a combination of editors for doing your
-assignments: The python files should be developed with an IDE (for syntax
-highlighting and running doctests) and the data/results should be
-analyzed/presented in Jupyter Notebooks. Below is an incomplete list of IDEs you
-might want to try. For more information about them, feel free to ask me!</p>
-<ul>
-<li>
-<p>The <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> text editor: see above. A nice combination with notebooks.</p>
-</li>
-<li>
-<p><a href="https://www.nano-editor.org/">nano</a>: available on most unix commandlines (e.g. DataHub Terminal). If you use this for more than changing a word or two, you'll hate your life.</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">vim</a>: lightweight, productive text-editor available on most command-lines, if you can ever learn how to use it. Beware opening vim, as you may never figure out how to quit (literally).</p>
-</li>
-<li>
-<p><a href="https://www.gnu.org/software/emacs/">emacs</a>: A text editor for those who prefer a life of endless toil. Endlessly customizable, it promises everything, but you’re never good enough to deliver. Its keyboard shortcuts are guaranteed to give you carpal tunnel.</p>
-</li>
-<li>
-<p><a href="https://www.sublimetext.com/">sublime</a>: A favorite text editor of hackers, famous for its multiple cursors. A good, general-purpose choice.</p>
-</li>
-<li>
-<p><a href="https://atom.io/">atom</a>: GitHub’s editor. Pretty nice fully featured IDE. Can only work locally.</p>
-</li>
-<li>
-<p><a href="https://www.jetbrains.com/pycharm/">PyCharm (IntelliJ)</a>: Those who feel at home coding Java. Can only work locally.</p>
-</li>
-<li>
-<p><a href="https://code.visualstudio.com/">VSCode</a>: Microsoft Visual Studio Code -- the trendy IDE of 2021. Might be <em>too much</em> for the small projects we're working on, like using a sledgehammer to drive in a thumbtack.</p>
-</li>
-</ul>
                     </main>
                 </div>
             </div>
