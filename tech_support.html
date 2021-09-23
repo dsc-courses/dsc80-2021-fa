@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Do not cache this page -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/style.css">
+
+        <!-- Optional JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Emoji -->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <title>DSC 80</title>
+        </head>
+
+        <body>
+            <!-- responsive sidebar code comes from https://stackoverflow.com/a/48477019 -->
+            <div class="container-fluid h-100">
+                <div class="nav row wrapper min-vh-100 flex-column flex-sm-row">
+                    <aside class="col-12 col-sm-3 p-0 bg-light flex-shrink-1">
+                        <nav class="navbar navbar-expand-sm navbar-light bg-light align-items-end flex-sm-column flex-row">
+                            <a class="navbar-brand" href="#"><i class="fa fa-bullseye fa-fw"></i>DSC 80</a>
+                            <a href class="navbar-toggler" data-toggle="collapse" data-target=".sidebar">
+                                <span class="navbar-toggler-icon"></span>
+                            </a>
+                            <div class="collapse navbar-collapse sidebar">
+                                <ul class="flex-column navbar-nav w-100 justify-content-between">
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./index.html"><span class="">🗓️ Schedule</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./syllabus.html"><span class="">📜 Syllabus</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./office_hours.html"><span class="">👨‍🏫️ Office Hours</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://afraenkel.github.io/practical-data-science/introduction"><span class="">📖 Textbook</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="http://github.com/dsc-courses/dsc80-2021-fa"><span class="">👩‍💻 GitHub</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./tech_support.html"><span class="">❓ Tech Support</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://campuswire.com/p/GAD6BC3AF"><span class="">💬 Campuswire</span></a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.gradescope.com/courses/316836"><span class="">💯 Gradescope</span></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </nav>
+                    </aside>
+                    <main class="col bg-faded main-content">
+
+                        <div class="site-title">
+                            <h1>DSC 80 &ndash; The Practice and Application of Data Science</h1>
+                            <hr>
+                        </div>
+
+
+                        <h1 id="tech-support">❓ Tech Support</h1>
+<h2 id="environment-setup-and-customization">Environment Setup and Customization</h2>
+<p>In this class you need python 3.8, either with Anaconda or pip. Anaconda is a
+package manager that comes python libraries useful for data science. If you
+prefer to use pip, you can use that too. You will also need git.</p>
+<p><em>Note: please use pandas &gt;= 1.0 for this class. See below how to upgrade if your
+pandas version is anything below 1.0.</em></p>
+<p>There are two options for development in this class: local and remote.
+Developing locally, on your personal computer, is preferred, as it allows you to
+start customizing your work environment; learning such customization allows you
+to be much more productive in your work. We also have servers you can use
+through a web-browser, you can use as well. There are advantages and
+disadvantages to using the servers; we encourage you to use both at some point
+in the quarter.</p>
+<h3 id="working-remotely-datahub">Working Remotely (DataHub)</h3>
+<p>There are servers available to use at <a href="datahub.ucsd.edu">datahub.ucsd.edu</a>.
+These are a lot like the jupyterhub servers that you used in DSC 10, however
+they are customized for this course. After logging in with your ucsd account,
+you will be taken the familiar juptyer landing page. The server you are logged
+into has ~4GB of RAM available, and has Python with all the necessary
+packages.</p>
+<p>To update a package (e.g. pandas) on DataHub, you'll need to use the command
+line. To do this, open “new &gt; terminal” and type:</p>
+<p><code>pip install --user --upgrade pandas</code></p>
+<p>followed by the enter key to run the command.</p>
+<h4 id="jupyterlab">JupyterLab</h4>
+<p>The remote servers have a development environment installed on them, however,
+it’s non-intuitive how to access it. Once on the landing page, the url should
+read something like:</p>
+<p><code>https://datahub.ucsd.edu/user/USER/tree</code></p>
+<p>You can access the IDE (integrate development environment) by changing "tree" to
+"lab". This brings up jupyterlab. The url should look something like this:</p>
+<p><code>https://datahub.ucsd.edu/user/USER/lab</code></p>
+<p>For more information on this IDE, you can see read about it here. From within
+jupyterlab, you can:</p>
+<ul>
+<li>use a python console</li>
+<li>run jupyter notebooks</li>
+<li>use a terminal (e.g. to pull git repos)</li>
+<li>develop python code in .py files.</li>
+</ul>
+<h4 id="git">Git</h4>
+<p>Using DataHub Servers will require you to pull down HW assignments from GitHub
+using the command-line (manually uploading to the servers is very cumbersome!)
+To do this, open “new &gt; terminal” and, to get the course repository for the
+first time, type: <code>git clone https://github.com/dsc-courses/dsc80-2021-fa</code> Then,
+open up the file-tree in the original Jupyter tab, and you should see all the
+course files now there. If you have already cloned the repository, and just want
+to get the latest files, type <code>git pull</code> and you should see the
+updated files.</p>
+<p>Warning: When working on assignments, you should copy the assignment directory
+to a new location, to avoid overwriting your work with blank assignments when
+pulling the latest material! See the git tutorial on the course webpage for more
+information.</p>
+<h3 id="local-development-preferred">Local Development (preferred)</h3>
+<p>Getting a development environment on your own computer is a valuable experience
+that will pay dividends; work in data science first requires getting the
+necessary tools working!</p>
+<p>Download <a href="https://www.anaconda.com/products/individual">Anaconda</a> and follow the
+instructions for installing it. You should install the standard anaconda (not
+miniconda) with python 3.8.</p>
+<h4 id="git-in-your-local-environment">Git in your local environment</h4>
+<p>You are welcome to use Git Desktop on your computer. However, it’s recommended
+to use the command-line when working on team projects, as Git Desktop has a
+habit of incorrectly guessing what you want, and causing hours of headache. The
+command-line is worth the investment.</p>
+<h3 id="choosing-a-text-editor-or-ide-integrated-development-environment">Choosing a text editor or IDE (Integrated Development Environment)</h3>
+<p>In this class, you will need to use a combination of editors for doing your
+assignments: The python files should be developed with an IDE (for syntax
+highlighting and running doctests) and the data/results should be
+analyzed/presented in Jupyter Notebooks. Below is an incomplete list of IDEs you
+might want to try. For more information about them, feel free to ask me!</p>
+<ul>
+<li>
+<p>The <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> text editor: see above. A nice combination with notebooks.</p>
+</li>
+<li>
+<p><a href="https://www.nano-editor.org/">nano</a>: available on most unix commandlines (e.g. DataHub Terminal). If you use this for more than changing a word or two, you'll hate your life.</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">vim</a>: lightweight, productive text-editor available on most command-lines, if you can ever learn how to use it. Beware opening vim, as you may never figure out how to quit (literally).</p>
+</li>
+<li>
+<p><a href="https://www.gnu.org/software/emacs/">emacs</a>: A text editor for those who prefer a life of endless toil. Endlessly customizable, it promises everything, but you’re never good enough to deliver. Its keyboard shortcuts are guaranteed to give you carpal tunnel.</p>
+</li>
+<li>
+<p><a href="https://www.sublimetext.com/">sublime</a>: A favorite text editor of hackers, famous for its multiple cursors. A good, general-purpose choice.</p>
+</li>
+<li>
+<p><a href="https://atom.io/">atom</a>: GitHub’s editor. Pretty nice fully featured IDE. Can only work locally.</p>
+</li>
+<li>
+<p><a href="https://www.jetbrains.com/pycharm/">PyCharm (IntelliJ)</a>: Those who feel at home coding Java. Can only work locally.</p>
+</li>
+<li>
+<p><a href="https://code.visualstudio.com/">VSCode</a>: Microsoft Visual Studio Code -- the trendy IDE of 2021. Might be <em>too much</em> for the small projects we're working on, like using a sledgehammer to drive in a thumbtack.</p>
+</li>
+</ul>
+                    </main>
+                </div>
+            </div>
+        </body>
+</html>
