@@ -186,6 +186,8 @@ span.schedule-resource-title {
 }
 
 div.schedule-announcement {
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin-top: -1em;
     margin-bottom: 2em;
 }
@@ -200,6 +202,7 @@ div.schedule-past-or-future {
     align-items: center;
     text-align: center;
     color: #c0c0c0;
+    margin-bottom: 5em;
 }
 
 .schedule-separator::before, .schedule-separator::after {
