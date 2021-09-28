@@ -566,6 +566,48 @@
                 }
             }
         },
+        "labs": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "assignment"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "type": "dict",
+                    "required_keys": {
+                        "topic": {
+                            "type": "string"
+                        },
+                        "released": {
+                            "type": "datetime"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "due": {
+                            "type": "datetime"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": false
+            },
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "topic": "Introduction",
+                        "released": "2021-09-27 23:59:00",
+                        "number": 1,
+                        "due": "2021-10-04 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/01-intro/assignment"
+                        }
+                    }
+                }
+            }
+        },
         "default": {
             "publication_schema": {
                 "required_artifacts": [],
