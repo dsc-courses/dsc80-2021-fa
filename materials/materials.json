@@ -103,7 +103,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/02-tabular_data/notebook"
+                        }
+                    }
                 },
                 "03-messy_data": {
                     "metadata": {
