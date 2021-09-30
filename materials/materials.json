@@ -137,7 +137,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/03-messy_data/notebook"
+                        }
+                    }
                 },
                 "04-hypothesis_testing": {
                     "metadata": {
