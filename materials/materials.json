@@ -658,6 +658,56 @@
                 }
             }
         },
+        "projects": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "assignment"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "type": "dict",
+                    "required_keys": {
+                        "checkpoint_due": {
+                            "type": "datetime"
+                        },
+                        "topic": {
+                            "type": "string"
+                        },
+                        "released": {
+                            "type": "datetime"
+                        },
+                        "checkpoint_released": {
+                            "type": "datetime"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "due": {
+                            "type": "datetime"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": false
+            },
+            "publications": {
+                "01-gradebook": {
+                    "metadata": {
+                        "checkpoint_due": "2021-10-07 23:59:00",
+                        "topic": "The Other Side of Gradescope",
+                        "released": "2021-10-07 23:59:00",
+                        "checkpoint_released": "2021-09-30 23:59:00",
+                        "number": 1,
+                        "due": "2021-10-14 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "projects/01-gradebook/assignment"
+                        }
+                    }
+                }
+            }
+        },
         "default": {
             "publication_schema": {
                 "required_artifacts": [],
