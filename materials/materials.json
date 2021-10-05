@@ -167,7 +167,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/04-hypothesis_testing/notebook"
+                        }
+                    }
                 },
                 "05-data_granularity": {
                     "metadata": {
