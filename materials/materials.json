@@ -653,7 +653,7 @@
                     }
                 },
                 "allow_unspecified_artifacts": false,
-                "is_ordered": false
+                "is_ordered": true
             },
             "publications": {
                 "01-intro": {
@@ -666,6 +666,19 @@
                     "artifacts": {
                         "assignment": {
                             "path": "labs/01-intro/assignment"
+                        }
+                    }
+                },
+                "02-pandas": {
+                    "metadata": {
+                        "topic": "Pandas",
+                        "released": "2021-10-04 23:59:00",
+                        "number": 2,
+                        "due": "2021-10-11 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/02-pandas/assignment"
                         }
                     }
                 }
