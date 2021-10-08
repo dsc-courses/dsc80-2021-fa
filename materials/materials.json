@@ -197,7 +197,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/05-data_granularity/notebook"
+                        }
+                    }
                 },
                 "06-combining_data": {
                     "metadata": {
