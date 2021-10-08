@@ -629,7 +629,11 @@
                         "number": 2,
                         "due": "2021-10-10 00:00:00"
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "assignment": {
+                            "path": "discussions/02-pandas/assignment"
+                        }
+                    }
                 }
             }
         },
