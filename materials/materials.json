@@ -689,6 +689,19 @@
                             "path": "labs/02-pandas/assignment"
                         }
                     }
+                },
+                "03-hypothesis_testing": {
+                    "metadata": {
+                        "topic": "Hypothesis Testing",
+                        "released": "2021-10-11 23:59:00",
+                        "number": 3,
+                        "due": "2021-10-18 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/03-hypothesis_testing/assignment"
+                        }
+                    }
                 }
             }
         },
