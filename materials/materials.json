@@ -235,7 +235,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/06-combining_data/notebook"
+                        }
+                    }
                 },
                 "07-permutation_tests": {
                     "metadata": {
