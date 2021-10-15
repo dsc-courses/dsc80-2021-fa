@@ -265,7 +265,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/07-permutation_tests/notebook"
+                        }
+                    }
                 },
                 "08-missingness": {
                     "metadata": {
