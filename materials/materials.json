@@ -642,6 +642,19 @@
                             "path": "discussions/02-pandas/assignment"
                         }
                     }
+                },
+                "03-plotting": {
+                    "metadata": {
+                        "topic": "Plotting",
+                        "date": "2021-10-15 15:00:00",
+                        "number": 3,
+                        "due": "2021-10-17 00:00:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "discussions/03-plotting/assignment"
+                        }
+                    }
                 }
             }
         },
