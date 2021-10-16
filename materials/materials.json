@@ -633,9 +633,9 @@
                 "02-pandas": {
                     "metadata": {
                         "topic": "Pandas",
-                        "date": "2021-10-08 15:00:00",
+                        "date": "2021-10-08 23:59:00",
                         "number": 2,
-                        "due": "2021-10-10 00:00:00"
+                        "due": "2021-10-10 08:59:00"
                     },
                     "artifacts": {
                         "assignment": {
@@ -646,9 +646,9 @@
                 "03-plotting": {
                     "metadata": {
                         "topic": "Plotting",
-                        "date": "2021-10-15 15:00:00",
+                        "date": "2021-10-15 23:59:00",
                         "number": 3,
-                        "due": "2021-10-17 00:00:00"
+                        "due": "2021-10-17 08:59:00"
                     },
                     "artifacts": {
                         "assignment": {
@@ -756,7 +756,7 @@
                     }
                 },
                 "allow_unspecified_artifacts": false,
-                "is_ordered": false
+                "is_ordered": true
             },
             "publications": {
                 "01-gradebook": {
@@ -771,6 +771,21 @@
                     "artifacts": {
                         "assignment": {
                             "path": "projects/01-gradebook/assignment"
+                        }
+                    }
+                },
+                "02-covid_vax": {
+                    "metadata": {
+                        "checkpoint_due": "2021-10-21 23:59:00",
+                        "topic": "COVID-19 Vaccine Effectiveness",
+                        "released": "2021-10-21 23:59:00",
+                        "checkpoint_released": "2021-10-14 23:59:00",
+                        "number": 2,
+                        "due": "2021-10-28 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "projects/02-covid_vax/assignment"
                         }
                     }
                 }
