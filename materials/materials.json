@@ -303,7 +303,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/08-missingness/notebook"
+                        }
+                    }
                 },
                 "09-data_imputation": {
                     "metadata": {
