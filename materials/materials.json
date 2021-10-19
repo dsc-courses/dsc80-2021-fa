@@ -723,6 +723,19 @@
                             "path": "labs/03-hypothesis_testing/assignment"
                         }
                     }
+                },
+                "04-permutation_testing": {
+                    "metadata": {
+                        "topic": "Hypothesis Testing",
+                        "released": "2021-10-18 23:59:00",
+                        "number": 4,
+                        "due": "2021-10-25 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/04-permutation_testing/assignment"
+                        }
+                    }
                 }
             }
         },
