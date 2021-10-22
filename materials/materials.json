@@ -337,7 +337,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/09-data_imputation/notebook"
+                        }
+                    }
                 },
                 "10-collecting_data": {
                     "metadata": {
