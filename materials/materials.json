@@ -757,6 +757,19 @@
                             "path": "labs/04-permutation_testing/assignment"
                         }
                     }
+                },
+                "05-imputation": {
+                    "metadata": {
+                        "topic": "Missingness and Imputation",
+                        "released": "2021-10-25 23:59:00",
+                        "number": 5,
+                        "due": "2021-11-01 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/05-imputation/assignment"
+                        }
+                    }
                 }
             }
         },
