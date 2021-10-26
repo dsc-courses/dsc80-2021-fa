@@ -6,7 +6,6 @@
     .main-content {
         max-width: 870px;
         padding-left: 60px;
-        padding-right: 60px;
         padding-top: 60px;
     }
 
@@ -115,23 +114,27 @@ h3.schedule-week-component-title {
 }
 
 div.schedule-lecture {
-    margin-top: 5em;
+    margin-bottom: 3em;
 }
 
-div.schedule-lecture:first-child {
-    margin-top: 0em;
+div.schedule-lecture.last {
+    margin-bottom: 0em;
 }
 
 i.schedule-icon {
     margin-right: .7em;
 }
 
-ol.schedule-lecture-parts {
+div.schedule-resource-parts {
+    margin-top: .5em;
+}
+
+ol.schedule-resource-parts {
     counter-reset: part-counter;
     list-style: none;
 }
 
-ol.schedule-lecture-parts li {
+ol.schedule-resource-parts li {
     counter-increment: part-counter;
     font-size: 12pt;
     margin-left: -.1em;
@@ -139,7 +142,7 @@ ol.schedule-lecture-parts li {
     position: relative;
 }
 
-ol.schedule-lecture-parts li:before {
+ol.schedule-resource-parts li:before {
     position: absolute;
     left: -2em;
     content: counter(part-counter, decimal-leading-zero) "  ";
@@ -186,8 +189,6 @@ span.schedule-resource-title {
 }
 
 div.schedule-announcement {
-    padding-top: 1em;
-    padding-bottom: 1em;
     margin-top: -1em;
     margin-bottom: 2em;
 }
@@ -202,7 +203,6 @@ div.schedule-past-or-future {
     align-items: center;
     text-align: center;
     color: #c0c0c0;
-    margin-bottom: 5em;
 }
 
 .schedule-separator::before, .schedule-separator::after {
@@ -217,4 +217,8 @@ div.schedule-past-or-future {
 
 .schedule-separator::after {
     margin-left: .25em;
+}
+
+div.schedule-separator {
+    margin-bottom: 4em;
 }
