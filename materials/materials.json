@@ -527,6 +527,7 @@
                     "type": "dict",
                     "required_keys": {
                         "checkpoint_due": {
+                            "nullable": true,
                             "type": "datetime"
                         },
                         "topic": {
@@ -535,11 +536,11 @@
                         "released": {
                             "type": "datetime"
                         },
-                        "checkpoint_released": {
-                            "type": "datetime"
-                        },
                         "number": {
                             "type": "integer"
+                        },
+                        "checkpoint_released": {
+                            "type": "datetime"
                         },
                         "due": {
                             "type": "datetime"
@@ -555,8 +556,8 @@
                         "checkpoint_due": "2021-10-07 23:59:00",
                         "topic": "The Other Side of Gradescope",
                         "released": "2021-10-07 23:59:00",
-                        "checkpoint_released": "2021-09-30 23:59:00",
                         "number": 1,
+                        "checkpoint_released": "2021-09-30 23:59:00",
                         "due": "2021-10-14 23:59:00"
                     },
                     "artifacts": {
@@ -570,13 +571,28 @@
                         "checkpoint_due": "2021-10-21 23:59:00",
                         "topic": "COVID-19 Vaccine Effectiveness",
                         "released": "2021-10-22 23:59:00",
-                        "checkpoint_released": "2021-10-14 23:59:00",
                         "number": 2,
+                        "checkpoint_released": "2021-10-14 23:59:00",
                         "due": "2021-10-28 23:59:00"
                     },
                     "artifacts": {
                         "assignment": {
                             "path": "projects/02-covid_vax/assignment"
+                        }
+                    }
+                },
+                "03-topic": {
+                    "metadata": {
+                        "checkpoint_due": null,
+                        "topic": "Topic Projects",
+                        "released": "2021-10-29 00:00:00",
+                        "number": 3,
+                        "checkpoint_released": "2021-10-29 00:00:00",
+                        "due": "2021-11-12 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "projects/03-topic/assignment"
                         }
                     }
                 }
