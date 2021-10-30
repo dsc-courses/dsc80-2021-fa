@@ -97,7 +97,24 @@
                             "url": "https://afraenkel.github.io/practical-data-science/02/introduction.html"
                         },
                         "number": 2,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Tabular Data",
+                                "url": "https://youtu.be/2EfVvv_bYXA?t=353"
+                            },
+                            {
+                                "title": "Selecting Rows and Columns with [] and loc",
+                                "url": "https://youtu.be/2EfVvv_bYXA?t=1472"
+                            },
+                            {
+                                "title": "Pandas and NumPy",
+                                "url": "https://youtu.be/2EfVvv_bYXA?t=2652"
+                            },
+                            {
+                                "title": "Useful pd.Series and pd.DataFrame methods",
+                                "url": "https://youtu.be/2EfVvv_bYXA?t=4172"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
