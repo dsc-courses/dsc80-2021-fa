@@ -165,7 +165,20 @@
                             "url": "https://afraenkel.github.io/practical-data-science/04/asking-questions.html"
                         },
                         "number": 4,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Hypothesis Testing",
+                                "url": "https://youtu.be/QGGBOtSSsKM?t=191"
+                            },
+                            {
+                                "title": "Example: Jury Selection in Alameda County",
+                                "url": "https://youtu.be/QGGBOtSSsKM?t=1624"
+                            },
+                            {
+                                "title": "Decisions and Uncertainty ",
+                                "url": "https://youtu.be/QGGBOtSSsKM?t=2912"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
