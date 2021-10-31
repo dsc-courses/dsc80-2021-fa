@@ -195,7 +195,24 @@
                             "url": "https://afraenkel.github.io/practical-data-science/05/grouping.html"
                         },
                         "number": 5,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Data Granularity",
+                                "url": "https://youtu.be/Q3AGJ_rti-Q?t=167"
+                            },
+                            {
+                                "title": "GroupBy",
+                                "url": "https://youtu.be/Q3AGJ_rti-Q?t=1173"
+                            },
+                            {
+                                "title": "Pivot Table",
+                                "url": "https://youtu.be/Q3AGJ_rti-Q?t=2869"
+                            },
+                            {
+                                "title": "Simpson\u2019s Paradox",
+                                "url": "https://youtu.be/Q3AGJ_rti-Q?t=3365"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
