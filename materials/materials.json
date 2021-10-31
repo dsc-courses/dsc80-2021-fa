@@ -327,7 +327,24 @@
                             "url": "https://afraenkel.github.io/practical-data-science/06/handling-missing-data.html"
                         },
                         "number": 9,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Data Imputation",
+                                "url": "https://youtu.be/dLZ0cxSKupE?t=171"
+                            },
+                            {
+                                "title": "What to do with missing data",
+                                "url": "https://youtu.be/dLZ0cxSKupE?t=1011"
+                            },
+                            {
+                                "title": "Mean Imputation",
+                                "url": "https://youtu.be/dLZ0cxSKupE?t=1450"
+                            },
+                            {
+                                "title": "Imputing using Distributions",
+                                "url": "https://youtu.be/dLZ0cxSKupE?t=2582"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
