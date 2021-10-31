@@ -131,7 +131,24 @@
                             "url": "https://afraenkel.github.io/practical-data-science/04/cleaning.html"
                         },
                         "number": 3,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "All Real Data is Messy",
+                                "url": "https://youtu.be/rlGu9K1eh9s?t=248"
+                            },
+                            {
+                                "title": "Data Cleaning",
+                                "url": "https://youtu.be/rlGu9K1eh9s?t=673"
+                            },
+                            {
+                                "title": "Example: Vehicle Stop Data",
+                                "url": "https://youtu.be/rlGu9K1eh9s?t=2883"
+                            },
+                            {
+                                "title": "Missing Values",
+                                "url": "https://youtu.be/rlGu9K1eh9s?t=3752"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
