@@ -263,7 +263,20 @@
                             "url": "https://afraenkel.github.io/practical-data-science/05/permutation-tests.html"
                         },
                         "number": 7,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Permutation Tests",
+                                "url": "https://youtu.be/LxUjVBQhL9E?t=188"
+                            },
+                            {
+                                "title": "Differences Between Categorical Distributions",
+                                "url": "https://youtu.be/LxUjVBQhL9E?t=2748"
+                            },
+                            {
+                                "title": "Faster Permutation Tests",
+                                "url": "https://youtu.be/LxUjVBQhL9E?t=3590"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
