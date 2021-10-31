@@ -293,7 +293,24 @@
                             "url": "https://afraenkel.github.io/practical-data-science/06/introduction.html"
                         },
                         "number": 8,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Missingness Mechanisms",
+                                "url": "https://youtu.be/X2F3-Arc7VQ?t=113"
+                            },
+                            {
+                                "title": "Assessing Missingness",
+                                "url": "https://youtu.be/X2F3-Arc7VQ?t=1943"
+                            },
+                            {
+                                "title": "Kolmogrov-Smirnov Test Statistics",
+                                "url": "https://youtu.be/X2F3-Arc7VQ?t=3106"
+                            },
+                            {
+                                "title": "Examples of Assessing Missingness",
+                                "url": "https://youtu.be/X2F3-Arc7VQ?t=3918"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
