@@ -344,7 +344,20 @@
                             "url": "https://afraenkel.github.io/practical-data-science/07/introduction.html"
                         },
                         "number": 10,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "HTTP",
+                                "url": "https://youtu.be/h3MwC8j4KpY?t=123"
+                            },
+                            {
+                                "title": "HTTP Requests",
+                                "url": "https://youtu.be/h3MwC8j4KpY?t=1063"
+                            },
+                            {
+                                "title": "Getting Data from the Internet",
+                                "url": "https://youtu.be/h3MwC8j4KpY?t=2647"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
