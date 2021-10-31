@@ -229,7 +229,24 @@
                             "url": "https://afraenkel.github.io/practical-data-science/05/appending-data.html"
                         },
                         "number": 6,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Concatenating Vertically ",
+                                "url": "https://youtu.be/FJFHYv3ed0A?t=217"
+                            },
+                            {
+                                "title": "Working with Time Series Data",
+                                "url": "https://youtu.be/FJFHYv3ed0A?t=641"
+                            },
+                            {
+                                "title": "Concatenate Horizontally",
+                                "url": "https://youtu.be/FJFHYv3ed0A?t=1591"
+                            },
+                            {
+                                "title": "Join and Merge",
+                                "url": "https://youtu.be/FJFHYv3ed0A?t=2337"
+                            }
+                        ]
                     },
                     "artifacts": {
                         "notebook": {
