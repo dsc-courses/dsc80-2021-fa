@@ -655,6 +655,19 @@
                             "path": "labs/05-imputation/assignment"
                         }
                     }
+                },
+                "06-http": {
+                    "metadata": {
+                        "topic": "HTTP and HTML",
+                        "released": "2021-11-01 23:59:00",
+                        "number": 6,
+                        "due": "2021-11-08 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/06-http/assignment"
+                        }
+                    }
                 }
             }
         },
