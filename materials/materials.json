@@ -410,7 +410,11 @@
                         "number": 12,
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/12-text_data/notebook"
+                        }
+                    }
                 },
                 "13-text_and_features": {
                     "metadata": {
