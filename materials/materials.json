@@ -444,7 +444,7 @@
                 },
                 "15-modeling_pipeline": {
                     "metadata": {
-                        "date": "2021-11-11",
+                        "date": "2021-11-16",
                         "topic": "Model Pipelines",
                         "reading": {
                             "title": "Chapters 9.2 - Data Pipelines",
@@ -457,7 +457,7 @@
                 },
                 "16-bias_and_variance": {
                     "metadata": {
-                        "date": "2021-11-16",
+                        "date": "2021-11-18",
                         "topic": "Model Validation",
                         "reading": null,
                         "number": 16,
@@ -467,7 +467,7 @@
                 },
                 "17-examples": {
                     "metadata": {
-                        "date": "2021-11-18",
+                        "date": "2021-11-23",
                         "topic": "Examples",
                         "reading": null,
                         "number": 17,
@@ -477,7 +477,7 @@
                 },
                 "18-model_evaluation_and_fairness": {
                     "metadata": {
-                        "date": "2021-11-23",
+                        "date": "2021-11-25",
                         "topic": "Model Evaluation and Fairness",
                         "reading": null,
                         "number": 18,
