@@ -425,7 +425,12 @@
                             "url": "https://afraenkel.github.io/practical-data-science/08/nlp.html"
                         },
                         "number": 13,
-                        "videos": null
+                        "videos": [
+                            {
+                                "title": "Example: Log Parsing with Regex",
+                                "url": "https://youtu.be/l9CtDQBXSfk?t=683"
+                            }
+                        ]
                     },
                     "artifacts": {}
                 },
