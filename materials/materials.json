@@ -690,6 +690,19 @@
                             "path": "labs/06-http/assignment"
                         }
                     }
+                },
+                "07-regex": {
+                    "metadata": {
+                        "topic": "Regex",
+                        "released": "2021-11-08 23:59:00",
+                        "number": 7,
+                        "due": "2021-11-15 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "labs/07-regex/assignment"
+                        }
+                    }
                 }
             }
         },
