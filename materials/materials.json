@@ -432,7 +432,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/13-text_and_features/notebook"
+                        }
+                    }
                 },
                 "14-features": {
                     "metadata": {
