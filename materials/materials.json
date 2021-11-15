@@ -401,30 +401,13 @@
                 },
                 "12-text_data": {
                     "metadata": {
-                        "date": "2021-11-02",
+                        "date": "2021-11-04",
                         "topic": "Text Data",
                         "reading": {
                             "title": "Chapter 8.1 - Text Processing",
                             "url": "https://afraenkel.github.io/practical-data-science/08/introduction.html"
                         },
                         "number": 12,
-                        "videos": null
-                    },
-                    "artifacts": {
-                        "notebook": {
-                            "path": "lectures/12-text_data/notebook"
-                        }
-                    }
-                },
-                "13-text_and_features": {
-                    "metadata": {
-                        "date": "2021-11-04",
-                        "topic": "Extracting Information from Text",
-                        "reading": {
-                            "title": "Chapter 8.2 - Information Extraction from Text",
-                            "url": "https://afraenkel.github.io/practical-data-science/08/nlp.html"
-                        },
-                        "number": 13,
                         "videos": [
                             {
                                 "title": "Example: Log Parsing with Regex",
@@ -434,13 +417,30 @@
                     },
                     "artifacts": {
                         "notebook": {
+                            "path": "lectures/12-text_data/notebook"
+                        }
+                    }
+                },
+                "13-text_and_features": {
+                    "metadata": {
+                        "date": "2021-11-09",
+                        "topic": "Extracting Information from Text",
+                        "reading": {
+                            "title": "Chapter 8.2 - Information Extraction from Text",
+                            "url": "https://afraenkel.github.io/practical-data-science/08/nlp.html"
+                        },
+                        "number": 13,
+                        "videos": []
+                    },
+                    "artifacts": {
+                        "notebook": {
                             "path": "lectures/13-text_and_features/notebook"
                         }
                     }
                 },
                 "14-features": {
                     "metadata": {
-                        "date": "2021-11-09",
+                        "date": "2021-11-16",
                         "topic": "Features",
                         "reading": {
                             "title": "Chapter 9.1 - Feature Engineering",
@@ -453,7 +453,7 @@
                 },
                 "15-modeling_pipeline": {
                     "metadata": {
-                        "date": "2021-11-16",
+                        "date": "2021-11-18",
                         "topic": "Model Pipelines",
                         "reading": {
                             "title": "Chapters 9.2 - Data Pipelines",
@@ -466,7 +466,7 @@
                 },
                 "16-bias_and_variance": {
                     "metadata": {
-                        "date": "2021-11-18",
+                        "date": "2021-11-23",
                         "topic": "Model Validation",
                         "reading": null,
                         "number": 16,
@@ -476,7 +476,7 @@
                 },
                 "17-examples": {
                     "metadata": {
-                        "date": "2021-11-23",
+                        "date": "2021-11-25",
                         "topic": "Examples",
                         "reading": null,
                         "number": 17,
@@ -486,7 +486,7 @@
                 },
                 "18-model_evaluation_and_fairness": {
                     "metadata": {
-                        "date": "2021-11-25",
+                        "date": "2021-11-30",
                         "topic": "Model Evaluation and Fairness",
                         "reading": null,
                         "number": 18,
@@ -786,6 +786,21 @@
                     "artifacts": {
                         "assignment": {
                             "path": "projects/03-topic/assignment"
+                        }
+                    }
+                },
+                "04-language_models": {
+                    "metadata": {
+                        "checkpoint_due": "2021-11-19 23:59:00",
+                        "topic": "Language Models",
+                        "released": "2021-11-20 23:59:00",
+                        "number": 4,
+                        "checkpoint_released": "2021-11-15 23:59:00",
+                        "due": "2021-11-29 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "projects/04-language_models/assignment"
                         }
                     }
                 }
