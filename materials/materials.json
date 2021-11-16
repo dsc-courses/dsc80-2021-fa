@@ -449,7 +449,11 @@
                         "number": 14,
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/14-features/notebook"
+                        }
+                    }
                 },
                 "15-modeling_pipeline": {
                     "metadata": {
