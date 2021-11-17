@@ -706,11 +706,7 @@
                         "number": 7,
                         "due": "2021-11-15 23:59:00"
                     },
-                    "artifacts": {
-                        "assignment": {
-                            "path": "labs/07-regex/assignment"
-                        }
-                    }
+                    "artifacts": {}
                 }
             }
         },
