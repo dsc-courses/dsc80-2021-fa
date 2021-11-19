@@ -595,6 +595,19 @@
                             "path": "discussions/07-scraping-regex/assignment"
                         }
                     }
+                },
+                "09-sklearn": {
+                    "metadata": {
+                        "topic": "sklearn",
+                        "date": "2021-11-19 00:00:00",
+                        "number": 8,
+                        "due": "2021-11-20 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "discussions/09-sklearn/assignment"
+                        }
+                    }
                 }
             }
         },
