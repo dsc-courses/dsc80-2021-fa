@@ -466,7 +466,11 @@
                         "number": 15,
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/15-modeling_pipeline/notebook"
+                        }
+                    }
                 },
                 "16-bias_and_variance": {
                     "metadata": {
