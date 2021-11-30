@@ -493,7 +493,11 @@
                             }
                         ]
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/16-bias_and_variance/notebook"
+                        }
+                    }
                 },
                 "17-examples": {
                     "metadata": {
@@ -861,6 +865,21 @@
                     "artifacts": {
                         "assignment": {
                             "path": "projects/04-language_models/assignment"
+                        }
+                    }
+                },
+                "05-topic-II": {
+                    "metadata": {
+                        "checkpoint_due": null,
+                        "topic": "Topic Projects, Part II",
+                        "released": "2021-11-29 00:00:00",
+                        "number": 5,
+                        "checkpoint_released": "2021-11-29 00:00:00",
+                        "due": "2021-12-08 23:59:00"
+                    },
+                    "artifacts": {
+                        "assignment": {
+                            "path": "projects/05-topic-II/assignment"
                         }
                     }
                 }
