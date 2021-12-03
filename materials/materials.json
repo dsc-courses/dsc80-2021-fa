@@ -507,7 +507,11 @@
                         "number": 17,
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/17-examples/notebook"
+                        }
+                    }
                 },
                 "18-model_evaluation_and_fairness": {
                     "metadata": {
@@ -517,7 +521,11 @@
                         "number": 18,
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "notebook": {
+                            "path": "lectures/18-model_evaluation_and_fairness/notebook"
+                        }
+                    }
                 }
             }
         },
